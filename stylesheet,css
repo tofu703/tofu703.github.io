@@ -1,0 +1,164 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ここからCSSを書いていきましょう */
+header{
+  background-color:rgba(34,49,52,0.9);
+  background-size:cover;
+  position:fixed;
+  z-index: 10;
+  width:100%;
+}
+.header-container {
+  height:65px;
+  width: 1170px;
+  margin: 0 auto;
+  
+}
+
+.logo {
+  line-height:65px;
+  width:124px;
+  padding-top:20px;
+  float:left;
+}
+
+.login {
+  line-height:65px;
+  padding-right:25px;
+  padding-left:25px;
+  float:right;
+  color:white;
+  background-color:rgba(255,255,255,0.3);
+}
+
+.login:hover{
+  background-color:rgba(255,255,255,0.5);
+}
+.container {
+  width:1170px;
+  margin: 0 auto;
+  
+}
+.top-wrapper{
+  background-image: url(https://prog-8.com/images/html/advanced/top.png);
+  background-size: cover;
+  text-align:center;
+  padding-top:180px;
+  padding-bottom:100px;
+}
+.top-wrapper h1 {
+  font-size:45px;
+  font-weight:bold;
+  letter-spacing:5px;
+  color:white;
+  opacity:0.7
+}
+.top-wrapper p{
+  color:white;
+  opacity:0.7;
+}
+.btn {
+  color: white;
+  padding:8px 24px;
+  display:inline-block;
+  opacity: 0.8;
+}
+.signup {
+  background-color:#239b76;
+  margin-top:30px;
+}
+.facebook {
+  background-color:#3b5998;
+  margin-right:10px;
+}
+.twitter {
+  background-color:#55acee;
+}
+.btn-wrapper p {
+  padding-top:15px;
+  padding-bottom:15px;
+}
+
+.lesson-wrapper {
+  background-color:#f7f7f7;
+  height:580px;
+  text-align:center;
+}
+
+.lesson-title h2 {
+  color:#5f5d60;
+  font-weight:normal;
+  padding-top:80px;
+  padding-bottom:50px;
+  text-align:center;
+}
+.lesson {
+  float:left;
+  width:25%;
+  margin: 0 auto ;
+
+}
+.lesson-icon {
+  position: relative;
+}
+.lesson-icon p {
+  position: absolute;
+  color:white;
+  top:90px;
+  
+}
+.text-contents {
+  width: 80%;
+  text-align:center;
+  color:#b3aeb5;
+  padding-top:15px;
+  font-size:13px;
+  display:inline-block;
+}
+.massage-wrapper {
+  text-align:center;
+}
+.message-title {
+  padding-top:80px;
+  padding-bottom:50px;
+}
+.message-title h2,h3 {
+  color:#5f5d60;
+  font-weight:normal;
+}
+.message {
+  text-align:center;
+  background-color:#5dca88;
+  opacity:0.8;
+  padding: 15px 40px ;
+  margin-bottom:80px;
+  box-shadow:0px 7px #1a7940;
+}
+
+.footer-wrapper{
+  color:#b3aeb5;
+  font-size:12px;
+  border-top:1px solid #eee;
+  padding: 30px 0 ;
+}
+.footer-logo {
+  width:124px;
+}
